@@ -36,6 +36,7 @@ module.exports = {
         pelpaygray500: "#8E8C95",
         pelpaygray600: "#434240",
         pelpayteal: "#F4FFF9",
+        pelpayteal100: "#F0FFF7",
         pelpayblack: "#181830",
         pelpayblack100: "#1D263A",
         pelpayblue: "#041A3E",

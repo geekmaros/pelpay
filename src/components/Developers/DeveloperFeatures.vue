@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-white w-full pl-115 pr-115">
+  <section class="bg-white w-full pl-115 pr-115 pb-24">
     <div class="sections flex justify-between pt-141 space-x-10">
       <div class="image-wrapper w-full">
         <img src="../../assets/images/AnalyticsGraphic.png" alt="" />
@@ -186,7 +186,7 @@
       </div>
     </div>
 
-    <div class="sections flex justify-between space-x-10">
+    <div class="sections flex justify-between space-x-10s">
       <div class="image-wrapper w-full">
         <img src="../../assets/images/paymentcard.png" alt="" />
       </div>
@@ -224,7 +224,7 @@ retain more customers long-term.
       </div>
     </div>
 
-      <div class="sections flex justify-between pt-141 pb-24">
+      <div class="sections flex justify-between pt-141">
       <div class="section-content w-full">
         <div class="text-contents">
           <div class="top-header w-full pt-6 bg-cover">
@@ -298,7 +298,7 @@ retain more customers long-term.
         </div>
       </div>
 
-      <div class="image-wrapper w-full -mt-20">
+      <div class="image-wrapper flex justify-end w-full -mt-20">
         <img src="../../assets/images/securedpayment.png" alt="" />
       </div>
     </div>
