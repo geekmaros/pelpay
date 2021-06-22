@@ -241,7 +241,7 @@
               text-lg
               leading-27px
             "
-            to="/"
+            to="compliance"
             >Compliance</router-link
           >
         </div>

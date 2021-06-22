@@ -3,6 +3,7 @@ import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import Developers from "../views/Developers.vue";
 import Features from "../views/Features.vue";
+import Compliance from "../views/Compliance.vue";
 
 Vue.use(VueRouter);
 
@@ -21,6 +22,11 @@ const routes = [
     path: "/features",
     name: "Features",
     component: Features,
+  },
+  {
+    path: "/compliance",
+    name: "Compliance",
+    component: Compliance,
   },
   {
     path: "/about",
