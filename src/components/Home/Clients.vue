@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-white flex justify-between items-center mx-56 pt-10 pb-8">
+  <section class="bg-white flex justify-between items-center mx-56  pb-8">
     <img src="../../assets/images/slack.png" alt="" />
     <img src="../../assets/images/gw.png" alt="" />
     <img src="../../assets/images/forbes.png" alt="" />
