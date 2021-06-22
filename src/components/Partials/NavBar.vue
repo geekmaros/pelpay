@@ -1,7 +1,7 @@
 <template>
   <header class="pl-115 pr-115 z-50 pt-8 pb-4 bg-white">
     <div class="flex justify-between">
-      <div class="logo">
+      <router-link to="/" class="logo">
         <svg
           width="171"
           height="63"
@@ -86,7 +86,7 @@
             </filter>
           </defs>
         </svg>
-      </div>
+      </router-link>
       <nav class="flex items-center justify-center font-medium space-x-9 ">
         <router-link class="nav-link" to="/">Home</router-link>
         <router-link class="nav-link" to="features">Features</router-link>
@@ -97,11 +97,11 @@
 
       <div class="button flex items-center space-x-5">
         <router-link to="/">
-          <button class="bg-white px-8 py-4 rounded-md leading-160 tracking-0.02em font-semibold text-primarygreen">Login</button>
+          <button class="bg-white transition-all hover:bg-pelpayblue hover:text-white duration-500 ease-in-out px-8 py-4 rounded-md leading-160 tracking-0.02em font-semibold text-primarygreen">Login</button>
         </router-link>
 
         <router-link to="/">
-          <button class="bg-primarygreen px-8 py-4 rounded-md leading-160 tracking-0.02em font-semibold text-white">Sign up</button>
+          <button class="bg-primarygreen transition-all duration-500 ease-in-out hover:bg-pelpayblue px-8 py-4 rounded-md leading-160 tracking-0.02em font-semibold text-white">Sign up</button>
         </router-link>
       </div>
     </div>

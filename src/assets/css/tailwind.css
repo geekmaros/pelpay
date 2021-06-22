@@ -5,3 +5,6 @@
 .nav-link{
     @apply hover:text-primarygreen text-primarydark leading-160 tracking-0.02em
 }
+.feature-card-wrapper{
+    @apply mb-56px
+}

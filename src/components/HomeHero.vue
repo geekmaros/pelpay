@@ -6,11 +6,11 @@
     </div>
     <div class="button-group flex items-center space-x-5 mt-9">
          <router-link to="/">
-          <button class="bg-primarygreen text-lg px-10 py-4 rounded-md leading-160 tracking-0.02em font-medium text-white">Get started</button>
+          <button class="bg-primarygreen hover:bg-pelpayblue transition-all duration-500 ease-in-out text-lg px-10 py-4 rounded-md leading-160 tracking-0.02em font-medium text-white">Get started</button>
         </router-link>
 
         <router-link to="/">
-          <button class="bg-white shadow-whitebutton px-10 text-lg py-4 rounded-md leading-160 tracking-0.02em font-medium text-primarydark">Learn more</button>
+          <button class="bg-white hover:bg-pelpayblue transition-all duration-500 ease-in-out hover:text-white shadow-whitebutton px-10 text-lg py-4 rounded-md leading-160 tracking-0.02em font-medium text-primarydark">Learn more</button>
         </router-link>
       </div>
   </section>
