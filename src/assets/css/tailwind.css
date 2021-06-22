@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-link{
+    @apply hover:text-primarygreen text-primarydark leading-160 tracking-0.02em
+}
