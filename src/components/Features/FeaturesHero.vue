@@ -9,6 +9,9 @@
 
         </p>
     </div>
+    <div class="hero-image">
+        <img src="../../assets/images/featureshero.png" alt="">
+    </div>
   </section>
 </template>
 

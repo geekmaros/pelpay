@@ -1,13 +1,15 @@
 <template>
   <section>
       <FeaturesHero />
+      <FeaturesServices />
   </section>
 </template>
 
 <script>
 import FeaturesHero from '../components/Features/FeaturesHero.vue'
+import FeaturesServices from '../components/Features/FeaturesServices.vue'
 export default {
-  components: { FeaturesHero },
+  components: { FeaturesHero, FeaturesServices },
 
 }
 </script>

@@ -217,7 +217,7 @@
               text-lg
               leading-27px
             "
-            to="/"
+            to="about"
             >About Us</router-link
           >
           <router-link
@@ -280,7 +280,7 @@
               text-lg
               leading-27px
             "
-            to="/"
+            to="developers"
             >Developers</router-link
           >
         </div>
