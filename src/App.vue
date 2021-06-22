@@ -1,5 +1,5 @@
 <template>
-  <div class="font-serif flex flex-col" id="app">
+  <div class="font-serif flex flex-col overflow-x-hidden" id="app">
     <NavBar class="sticky top-0"></NavBar>
     <router-view />
     <Footer/>

@@ -282,7 +282,7 @@
         <router-link to="/">
           <button class="bg-primarygreen transition-all duration-500 ease-in-out hover:bg-pelpayblue px-8 py-4 rounded-md leading-160 tracking-0.02em font-semibold text-white">Vew Documenation</button>
         </router-link>
-      </div>
+    </div>
 
 
     </div>
