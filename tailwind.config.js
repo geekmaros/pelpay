@@ -1,9 +1,9 @@
 module.exports = {
   purge: {
-    // mode: "layers",
-    // content: ["./public/**/*.html", "./src/**/*.vue"],
+    mode: "layers",
+    content: ["./public/**/*.html", "./src/**/*.vue"],
   },
-  darkMode: false, // or 'media' or 'class'
+  darkMode: false,
   theme: {
     extend: {
       fontFamily: {
@@ -15,7 +15,7 @@ module.exports = {
         "56px": "56px",
         62: "62px",
         78: "78px",
-        '88px': "88px",
+        "88px": "88px",
         104: "104px",
         103: "103px",
         106: "106px",
@@ -67,7 +67,7 @@ module.exports = {
       letterSpacing: {
         "0.02em": "0.02em",
         "0.04em": "0.04em",
-        "0.3": "0.381522px",
+        0.3: "0.381522px",
         0.09: "-0.9px",
       },
       fontSize: {

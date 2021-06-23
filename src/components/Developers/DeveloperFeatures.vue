@@ -1,6 +1,17 @@
 <template>
   <section class="bg-white w-full pl-5 pr-5 md:pl-115 md:pr-115 pb-24">
-    <div class="sections flex md:flex-row flex-col justify-between pt-16 mt:pt-141 md:space-x-10">
+    <div
+      class="
+        sections
+        flex
+        md:flex-row
+        flex-col
+        justify-between
+        pt-16
+        mt:pt-141
+        md:space-x-10
+      "
+    >
       <div class="image-wrapper w-full">
         <img src="../../assets/images/AnalyticsGraphic.png" alt="" />
       </div>
@@ -34,7 +45,8 @@
               class="
                 font-bold
                 text-4xl
-                md:text-5xl text-black
+                md:text-5xl
+                text-black
                 md:leading-56px
                 max-w-lg
                 text-left
@@ -86,7 +98,9 @@
       </div>
     </div>
 
-    <div class="sections flex md:flex-row flex-col justify-between pt-16 md:pt-141">
+    <div
+      class="sections flex md:flex-row flex-col justify-between pt-16 md:pt-141"
+    >
       <div class="section-content w-full">
         <div class="text-contents">
           <div class="top-header w-full pt-6 bg-cover">
@@ -94,7 +108,8 @@
               class="
                 font-bold
                 text-4xl
-                md:text-5xl text-black
+                md:text-5xl
+                text-black
                 md:leading-56px
                 max-w-sm
                 text-left
@@ -161,7 +176,7 @@
             </span>
           </div>
 
-           <div class="list-wrapper mb-5 flex items-center space-x-5">
+          <div class="list-wrapper mb-5 flex items-center space-x-5">
             <svg
               width="16"
               height="13"
@@ -188,7 +203,16 @@
       </div>
     </div>
 
-    <div class="sections flex md:flex-row flex-col-reverse justify-between space-x-10s">
+    <div
+      class="
+        sections
+        flex
+        md:flex-row
+        flex-col-reverse
+        justify-between
+        space-x-10s
+      "
+    >
       <div class="image-wrapper w-full">
         <img src="../../assets/images/paymentcard.png" alt="" />
       </div>
@@ -200,13 +224,14 @@
               class="
                 font-bold
                 text-4xl
-                md:text-5xl text-black
+                md:text-5xl
+                text-black
                 md:leading-56px
                 max-w-lg
                 text-left
               "
             >
-            Create automated  payment flows
+              Create automated payment flows
             </h3>
             <p
               class="
@@ -214,20 +239,21 @@
                 leading-30px
                 text-md
                 font-normal
-                text-left max-w-27.5rem
+                text-left
+                max-w-27.5rem
                 mt-6
               "
             >
-             Churn Buster takes the right action at the right times to 
-preserve customer relationships, elevate your brand, and 
-retain more customers long-term.
+              Churn Buster takes the right action at the right times to preserve
+              customer relationships, elevate your brand, and retain more
+              customers long-term.
             </p>
           </div>
         </div>
       </div>
     </div>
 
-      <div class="sections flex md:flex-row flex-col justify-between md:pt-141">
+    <div class="sections flex md:flex-row flex-col justify-between md:pt-141">
       <div class="section-content w-full">
         <div class="text-contents">
           <div class="top-header w-full pt-6 bg-cover">
@@ -235,13 +261,14 @@ retain more customers long-term.
               class="
                 font-bold
                 text-4xl
-                md:text-5xl text-black
+                md:text-5xl
+                text-black
                 md:leading-56px
                 max-w-2xl
                 text-left
               "
             >
-           Fraud Protection and Transaction Monitoring
+              Fraud Protection and Transaction Monitoring
             </h3>
             <p
               class="
@@ -254,7 +281,8 @@ retain more customers long-term.
                 mt-6
               "
             >
-             PelPay combination of automated and manual fraud systems protect you from fraudulent transactions and associated chargeback claims.
+              PelPay combination of automated and manual fraud systems protect
+              you from fraudulent transactions and associated chargeback claims.
             </p>
           </div>
         </div>
@@ -306,7 +334,6 @@ retain more customers long-term.
         <img src="../../assets/images/securedpayment.png" alt="" />
       </div>
     </div>
-
   </section>
 </template>
 
@@ -314,5 +341,4 @@ retain more customers long-term.
 export default {};
 </script>
 
-<style>
-</style>
+<style></style>

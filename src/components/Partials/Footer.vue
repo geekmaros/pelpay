@@ -58,11 +58,30 @@
           fill="#041A3E"
         />
       </svg>
-      <h3 class="font-bold text-3xl md:text-4xl text-white leading-124 text-center">
+      <h3
+        class="
+          font-bold
+          text-3xl
+          md:text-4xl
+          text-white
+          leading-124
+          text-center
+        "
+      >
         We care whenever you need it
       </h3>
 
-      <div class="button-group flex md:flex-row flex-col items-center md:space-x-5 mt-12">
+      <div
+        class="
+          button-group
+          flex
+          md:flex-row
+          flex-col
+          items-center
+          md:space-x-5
+          mt-12
+        "
+      >
         <router-link to="/">
           <button
             class="
@@ -97,7 +116,8 @@
               leading-160
               tracking-0.02em
               font-bold
-              mt-4 md:mt-0
+              mt-4
+              md:mt-0
               hover:bg-white hover:text-pelpayblue
               text-white
             "
@@ -109,9 +129,20 @@
     </div>
 
     <div
-      class="footer-link-wrapper px-5 flex md:flex-row flex-col justify-between mt-14 border-b pb-3 mb-5"
+      class="
+        footer-link-wrapper
+        px-5
+        flex
+        md:flex-row
+        flex-col
+        justify-between
+        mt-14
+        border-b
+        pb-3
+        mb-5
+      "
     >
-      <div class="logo-section ">
+      <div class="logo-section">
         <router-link class="" to="/">
           <svg
             width="168"
@@ -199,12 +230,28 @@
           </svg>
         </router-link>
         <a
-          class="text-base block hover:text-primarygreen ml-2 text-primarydark leading-160 mb-2"
+          class="
+            text-base
+            block
+            hover:text-primarygreen
+            ml-2
+            text-primarydark
+            leading-160
+            mb-2
+          "
           href="mailto:Info@pelpay.africa"
           >Info@pelpay.africa</a
         >
         <a
-          class="text-base block  hover:text-primarygreen ml-2 text-primarydark leading-160 mb-2"
+          class="
+            text-base
+            block
+            hover:text-primarygreen
+            ml-2
+            text-primarydark
+            leading-160
+            mb-2
+          "
           href="tel:(704) 555-0127"
           >(704) 555-0127</a
         >

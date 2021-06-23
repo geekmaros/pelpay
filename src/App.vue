@@ -1,8 +1,8 @@
 <template>
-  <div class="font-serif flex flex-col overflow-x-hidden" id="app">
+  <div class="font-serif relative flex flex-col overflow-x-hidden" id="app">
     <NavBar class="sticky top-0"></NavBar>
     <router-view />
-    <Footer/>
+    <Footer />
   </div>
 </template>
 
@@ -10,7 +10,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700;900&display=swap");
 </style>
 <script>
-import Footer from './components/Partials/Footer.vue';
+import Footer from "./components/Partials/Footer.vue";
 import NavBar from "./components/Partials/NavBar";
 export default {
   components: { NavBar, Footer },
