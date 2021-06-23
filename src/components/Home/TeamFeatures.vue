@@ -10,7 +10,11 @@
         mx-auto
       "
     >
-      <div class="01 flex pt-62 pb-8 space-x-5 px-10 md:px-0 pr-10">
+      <div
+        data-aos="fade-right"
+        data-aos-duration="1000"
+        class="01 flex pt-62 pb-8 space-x-5 px-10 md:px-0 pr-10"
+      >
         <span class="blocks text-pelpaygreen opacity-50 font-bold text-288px"
           >01</span
         >
@@ -27,7 +31,11 @@
         </div>
       </div>
 
-      <div class="01 flex md:border pt-62 pb-8 px-10 space-x-5">
+      <div
+        data-aos="zoom-in"
+        data-aos-duration="1000"
+        class="01 flex md:border pt-62 pb-8 px-10 space-x-5"
+      >
         <div>
           <span
             class="block text-pelpaygreen opacity-50 font-bold text-288px -mt-1"
@@ -50,7 +58,12 @@
           </p>
         </div>
       </div>
-      <div class="01 flex pt-62 pb-8 pl-10 space-x-5">
+
+      <div
+        data-aos="fade-left"
+        data-aos-duration="1000"
+        class="01 flex pt-62 pb-8 pl-10 space-x-5"
+      >
         <div>
           <span
             class="block text-pelpaygreen opacity-50 font-bold text-288px -mt-1"

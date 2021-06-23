@@ -12,11 +12,19 @@
         md:space-x-10
       "
     >
-      <div class="image-wrapper w-full">
+      <div
+        data-aos="fade-right"
+        data-aos-duration="1000"
+        class="image-wrapper w-full"
+      >
         <img src="../../assets/images/AnalyticsGraphic.png" alt="" />
       </div>
 
-      <div class="section-content w-full">
+      <div
+        data-aos="fade-left"
+        data-aos-duration="1000"
+        class="section-content w-full"
+      >
         <div class="top-span flex items-center md:mb-9">
           <svg
             width="72"
@@ -101,7 +109,11 @@
     <div
       class="sections flex md:flex-row flex-col justify-between pt-16 md:pt-141"
     >
-      <div class="section-content w-full">
+      <div
+        data-aos="fade-right"
+        data-aos-duration="1000"
+        class="section-content w-full"
+      >
         <div class="text-contents">
           <div class="top-header w-full pt-6 bg-cover">
             <h3
@@ -198,7 +210,11 @@
         </div>
       </div>
 
-      <div class="image-wrapper w-full -mt-20">
+      <div
+        data-aos="fade-left"
+        data-aos-duration="1000"
+        class="image-wrapper w-full -mt-20"
+      >
         <img src="../../assets/images/graph.png" alt="" />
       </div>
     </div>
@@ -213,11 +229,19 @@
         space-x-10s
       "
     >
-      <div class="image-wrapper w-full">
+      <div
+        data-aos="fade-right"
+        data-aos-duration="1000"
+        class="image-wrapper w-full"
+      >
         <img src="../../assets/images/paymentcard.png" alt="" />
       </div>
 
-      <div class="section-content w-full md:pt-48">
+      <div
+        data-aos="fade-left"
+        data-aos-duration="1000"
+        class="section-content w-full md:pt-48"
+      >
         <div class="text-contents">
           <div class="top-header w-full pt-6 bg-cover">
             <h3
@@ -254,7 +278,11 @@
     </div>
 
     <div class="sections flex md:flex-row flex-col justify-between md:pt-141">
-      <div class="section-content w-full">
+      <div
+        data-aos="fade-right"
+        data-aos-duration="1000"
+        class="section-content w-full"
+      >
         <div class="text-contents">
           <div class="top-header w-full pt-6 bg-cover">
             <h3
@@ -330,7 +358,11 @@
         </div>
       </div>
 
-      <div class="image-wrapper flex justify-end w-full mt-20 md:-mt-20">
+      <div
+        data-aos="fade-left"
+        data-aos-duration="1000"
+        class="image-wrapper flex justify-end w-full mt-20 md:-mt-20"
+      >
         <img src="../../assets/images/securedpayment.png" alt="" />
       </div>
     </div>

@@ -346,6 +346,11 @@ export default {
     };
   },
   components: {},
+  watch: {
+    $route() {
+      this.isOpen = !this.isOpen;
+    },
+  },
   methods: {
     show() {
       console.log("working");
@@ -356,6 +361,8 @@ export default {
 
 <style lang="scss">
 .mobile-menu.open {
+  position: fixed;
+  overflow: hidden;
   transform: translateX(1px);
   font-weight: 900 !important;
   transition: all 5s ease-in-out !important;

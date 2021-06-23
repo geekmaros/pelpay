@@ -60,6 +60,8 @@
         "
       >
         <h3
+          data-aos="fade-right"
+          data-aos-duration="1000"
           class="
             text-3xl
             md:text-5xl
@@ -72,6 +74,8 @@
           ISO 27001 Certification
         </h3>
         <p
+          data-aos="fade-left"
+          data-aos-duration="1000"
           class="
             text text-xl
             md:pl-4 md:text-2xl
@@ -96,6 +100,8 @@
         "
       >
         <h3
+          data-aos="fade-right"
+          data-aos-duration="1000"
           class="
             md:text-5xl
             text-3xl
@@ -108,6 +114,8 @@
           PCI DSS Compliant
         </h3>
         <p
+          data-aos="fade-left"
+          data-aos-duration="1000"
           class="text-xl md:pl-4 md:text-2xl max-w-38rem leading-10 font-normal"
         >
           This means that ChamsSwitch has satisfied the highest level of

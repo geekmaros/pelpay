@@ -59,6 +59,8 @@
         />
       </svg>
       <h3
+        data-aos="fade-up"
+        data-aos-duration="1000"
         class="
           font-bold
           text-3xl
@@ -84,6 +86,8 @@
       >
         <router-link to="/">
           <button
+            data-aos="fade-up"
+            data-aos-duration="2000"
             class="
               bg-white
               text-base
@@ -104,6 +108,8 @@
 
         <router-link to="/">
           <button
+            data-aos="fade-up"
+            data-aos-duration="2000"
             class="
               bg-transparent
               border

@@ -16,7 +16,11 @@
       pb-118
     "
   >
-    <div class="heading w-full text-primarydark">
+    <div
+      data-aos="fade-right"
+      data-aos-duration="1000"
+      class="heading w-full text-primarydark"
+    >
       <h3
         class="
           font-bold
@@ -162,7 +166,11 @@
         </div>
       </div>
     </div>
-    <div class="paymenoption-image w-full mt-20 md:mt-0 md:ml-10">
+    <div
+      data-aos="fade-left"
+      data-aos-duration="1000"
+      class="paymenoption-image w-full mt-20 md:mt-0 md:ml-10"
+    >
       <img class="w-full" src="../../assets/images/paymentoption.png" alt="" />
     </div>
   </section>

@@ -18,11 +18,39 @@
       pb-10
     "
   >
-    <img src="../../assets/images/slack.png" alt="" />
-    <img class="justify-self-end" src="../../assets/images/gw.png" alt="" />
-    <img src="../../assets/images/forbes.png" alt="" />
-    <img class="justify-self" src="../../assets/images/usa.png" alt="" />
-    <img class="" src="../../assets/images/envato.png" alt="" />
+    <img
+      data-aos="zoom-in"
+      data-aos-duration="1000"
+      src="../../assets/images/slack.png"
+      alt=""
+    />
+    <img
+      data-aos="zoom-in"
+      data-aos-duration="1000"
+      class="justify-self-end"
+      src="../../assets/images/gw.png"
+      alt=""
+    />
+    <img
+      data-aos="zoom-in"
+      data-aos-duration="1000"
+      src="../../assets/images/forbes.png"
+      alt=""
+    />
+    <img
+      data-aos="zoom-in"
+      data-aos-duration="1000"
+      class="justify-self"
+      src="../../assets/images/usa.png"
+      alt=""
+    />
+    <img
+      data-aos="zoom-in"
+      data-aos-duration="1000"
+      class=""
+      src="../../assets/images/envato.png"
+      alt=""
+    />
   </section>
 </template>
 

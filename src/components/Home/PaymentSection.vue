@@ -15,6 +15,8 @@
   >
     <div class="heading text-primarydark text-center">
       <h3
+        data-aos="fade-up"
+        data-aos-duration="2000"
         class="
           md:text-5xl
           text-4xl
@@ -25,7 +27,11 @@
       >
         Create seamless payment experiences for your customers
       </h3>
-      <p class="leading-160 text-xl md:text-2xl tracking-0.04em mt-8">
+      <p
+        data-aos="fade-up"
+        data-aos-duration="2000"
+        class="leading-160 text-xl md:text-2xl tracking-0.04em mt-8"
+      >
         Pelpay is your one stop shop for your payment needs
       </p>
     </div>
@@ -41,7 +47,12 @@
         mt-106px
       "
     >
-      <payment-card class="relative" image="../assets/images">
+      <payment-card
+        data-aos="fade-up"
+        data-aos-duration="2000"
+        class="relative"
+        image="../assets/images"
+      >
         <template #heading> Mobile Payment </template>
         <template #description>
           Our payment gateway enables businesses accept cards and other forms of
@@ -52,7 +63,12 @@
         </template>
       </payment-card>
 
-      <payment-card class="relative" image="../assets/images">
+      <payment-card
+        data-aos="fade-up"
+        data-aos-duration="2000"
+        class="relative"
+        image="../assets/images"
+      >
         <template #heading> POS Payment </template>
         <template #description>
           Customers can make payments seamlessly on instore purchases. We want
@@ -63,7 +79,12 @@
         </template>
       </payment-card>
 
-      <payment-card class="relative" image="../assets/images">
+      <payment-card
+        data-aos="fade-up"
+        data-aos-duration="2000"
+        class="relative"
+        image="../assets/images"
+      >
         <template #heading> E-commerce Payment Processing </template>
         <template #description>
           Our payment gateway enables businesses accept cards and other forms of
@@ -74,7 +95,12 @@
         </template>
       </payment-card>
 
-      <payment-card class="relative" image="../assets/images">
+      <payment-card
+        data-aos="fade-up"
+        data-aos-duration="2000"
+        class="relative"
+        image="../assets/images"
+      >
         <template #heading>Online Web Payment Processing</template>
         <template #description>
           Customers can make payments seamlessly on instore purchases. We want

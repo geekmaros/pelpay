@@ -2,6 +2,8 @@
   <section class="pr-5 pl-5 md:pr-115 md:pl-115 pb-5 md:pb-106">
     <div class="top-header w-full pt-20 md:pt-103px md:pb-24 pb-16 bg-cover">
       <h3
+        data-aos="fade-up"
+        data-aos-duration="1000"
         class="
           font-bold
           text-4xl
@@ -21,6 +23,8 @@
         to the Rest of the World
       </h3>
       <p
+        data-aos="fade-up"
+        data-aos-duration="2000"
         class="
           leading-30px
           text-pelpaygray200 text-xl
@@ -37,6 +41,8 @@
       </p>
     </div>
     <div
+      data-aos="fade-up"
+      data-aos-duration="2000"
       class="
         imageflex
         w-full

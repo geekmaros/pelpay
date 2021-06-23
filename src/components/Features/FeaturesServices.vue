@@ -15,6 +15,8 @@
 
     <div class="grid-card grid md:grid-cols-3 gap-8 mt-10">
       <div
+        data-aos="zoom-in"
+        data-aos-duration="1000"
         class="
           card
           bg-white
@@ -98,6 +100,8 @@
       </div>
 
       <div
+        data-aos="zoom-in"
+        data-aos-duration="1000"
         class="
           card
           bg-white
@@ -192,6 +196,8 @@
       </div>
 
       <div
+        data-aos="zoom-in"
+        data-aos-duration="1000"
         class="
           card
           bg-white
@@ -284,6 +290,8 @@
       </div>
 
       <div
+        data-aos="zoom-in"
+        data-aos-duration="1000"
         class="
           card
           bg-white
@@ -366,6 +374,8 @@
       </div>
 
       <div
+        data-aos="zoom-in"
+        data-aos-duration="1000"
         class="
           card
           bg-white

@@ -19,7 +19,11 @@
         'url(' + require('../../assets/images/unicorn.png') + ')',
     }"
   >
-    <div class="text-content w-full flex flex-col items-end md:mr-20 pt-16">
+    <div
+      data-aos="fade-left"
+      data-aos-duration="1000"
+      class="text-content w-full flex flex-col items-end md:mr-20 pt-16"
+    >
       <h3 class="font-bold text-4xl md:text-42px leading-48px max-w-lg">
         Powering growth for African’s Unicorns
       </h3>

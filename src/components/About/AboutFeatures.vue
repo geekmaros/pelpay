@@ -39,7 +39,11 @@
         bg-pelpaylemongreen200
       "
     >
-      <div class="feature-card-wrapper flex space-x-5">
+      <div
+        data-aos="fade-up"
+        data-aos-duration="2000"
+        class="feature-card-wrapper flex space-x-5"
+      >
         <div class="icon">
           <svg
             width="63"
@@ -79,7 +83,11 @@
         </div>
       </div>
 
-      <div class="feature-card-wrapper flex space-x-5">
+      <div
+        data-aos="fade-up"
+        data-aos-duration="2000"
+        class="feature-card-wrapper flex space-x-5"
+      >
         <div class="icon">
           <svg
             width="63"
@@ -144,7 +152,11 @@
         </div>
       </div>
 
-      <div class="feature-card-wrapper flex space-x-5">
+      <div
+        data-aos="fade-up"
+        data-aos-duration="2000"
+        class="feature-card-wrapper flex space-x-5"
+      >
         <div class="icon">
           <svg
             width="63"
@@ -213,7 +225,11 @@
         </div>
       </div>
 
-      <div class="feature-card-wrapper flex space-x-5">
+      <div
+        data-aos="fade-up"
+        data-aos-duration="2000"
+        class="feature-card-wrapper flex space-x-5"
+      >
         <div class="icon">
           <svg
             width="63"
@@ -290,6 +306,8 @@
     <div class="right-side w-full pl-5 pr-5 md:pl-103 md:pr-106 pb-24">
       <div class="top-header w-full pt-10 md:pt-20 bg-cover">
         <h3
+          data-aos="fade-up"
+          data-aos-duration="1000"
           class="
             font-bold
             text-4xl
@@ -304,6 +322,8 @@
           Payment. We get it Absolutly!
         </h3>
         <p
+          data-aos="fade-up"
+          data-aos-duration="2000"
           class="
             text-pelpaygray200
             leading-6
@@ -322,7 +342,11 @@
         </p>
       </div>
 
-      <div class="info flex justify-between space-x-5 items-center mt-16">
+      <div
+        data-aos="fade-up"
+        data-aos-duration="2000"
+        class="info flex justify-between space-x-5 items-center mt-16"
+      >
         <div class="trans-info">
           <h2
             class="
@@ -357,6 +381,8 @@
       </div>
 
       <div
+        data-aos="fade-up"
+        data-aos-duration="1000"
         class="
           button
           flex
