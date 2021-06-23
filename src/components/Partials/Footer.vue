@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-white relative pl-115 pr-115 pt-20 pb-3">
+  <section class="bg-white relative md:pl-115 md:pr-115 md:pt-20 pb-3">
     <div
       class="
         footer-design
@@ -11,10 +11,12 @@
         pt-16
         pb-12
         rounded-30px rounded-bl-none
+        px-5
+        md:px-0
       "
     >
       <svg
-        class="absolute left-0 bottom-0"
+        class="absolute hidden md:block left-0 bottom-0"
         width="75"
         height="228"
         viewBox="0 0 75 228"
@@ -36,7 +38,7 @@
       </svg>
 
       <svg
-        class="absolute right-0 bottom-0"
+        class="absolute hidden md:block right-0 bottom-0"
         width="130"
         height="228"
         viewBox="0 0 130 228"
@@ -56,17 +58,18 @@
           fill="#041A3E"
         />
       </svg>
-      <h3 class="font-bold text-4xl text-white leading-124 text-center">
+      <h3 class="font-bold text-3xl md:text-4xl text-white leading-124 text-center">
         We care whenever you need it
       </h3>
 
-      <div class="button-group flex items-center space-x-5 mt-12">
+      <div class="button-group flex md:flex-row flex-col items-center md:space-x-5 mt-12">
         <router-link to="/">
           <button
             class="
               bg-white
               text-base
-              px-10
+              px-12
+              md:px-10
               py-4
               rounded-md
               leading-160
@@ -86,13 +89,15 @@
               bg-transparent
               border
               shadow-whitebutton
-              px-10
+              px-16
+              md:px-10
               text-base
               py-4
               rounded-md
               leading-160
               tracking-0.02em
               font-bold
+              mt-4 md:mt-0
               hover:bg-white hover:text-pelpayblue
               text-white
             "
@@ -104,9 +109,9 @@
     </div>
 
     <div
-      class="footer-link-wrapper flex justify-between mt-14 border-b pb-3 mb-5"
+      class="footer-link-wrapper px-5 flex md:flex-row flex-col justify-between mt-14 border-b pb-3 mb-5"
     >
-      <div class="logo-section">
+      <div class="logo-section ">
         <router-link class="" to="/">
           <svg
             width="168"
@@ -205,8 +210,8 @@
         >
       </div>
 
-      <div class="footer-links grid grid-cols-3 gap-x-32">
-        <div class="company">
+      <div class="footer-links grid grid-cols-1s grid-cols-3 md:gap-x-32">
+        <div class="company mt-4 md:mt-0">
           <h2 class="text-primarydark font-medium text-lg mb-4">Company</h2>
           <router-link
             class="
@@ -245,7 +250,7 @@
             >Compliance</router-link
           >
         </div>
-        <div class="company">
+        <div class="company mt-4 md:mt-0 text-center md:text-left">
           <h2 class="text-primarydark font-medium text-lg mb-4">Resources</h2>
           <router-link
             class="
@@ -284,7 +289,7 @@
             >Developers</router-link
           >
         </div>
-        <div class="company">
+        <div class="company mt-4 md:mt-0 text-right md:text-left">
           <h2 class="text-primarydark font-medium text-lg mb-4">Support</h2>
           <router-link
             class="

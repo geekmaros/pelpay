@@ -1,7 +1,7 @@
 <template>
   <section class="z-50 pb-4 about-hero bg-white ">
-    <div class="top-header w-fulls pt-103px pb-16 bg-pelpayteal100 w-9/12 max-w-5xls pl-115">
-        <h3 class="font-bold text-64px text-pelpayblack100 leading-80px max-w-4xl text-left">
+    <div class="top-header w-fulls pt-20 md:pt-103px pb-16 bg-pelpayteal100 md:w-9/12 md:max-w-5xls pr-5 pl-5 md:pl-115">
+        <h3 class="font-bold text-5xl md:text-64px text-pelpayblack100 leading-tight md:leading-80px md:max-w-4xl text-left">
           Helping businesses digitize their payment processes
           </h3>
         <p class="text-lg text-primarydark leading-30px font-medium text-left max-w-2xl mt-8">

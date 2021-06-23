@@ -1,7 +1,8 @@
 <template>
-  <header class="pl-115 pr-115 z-50 pt-8 pb-4 bg-white">
-    <div class="flex justify-between">
-      <router-link to="/" class="logo">
+  <header class=" md:pl-16 w-full shadow-lg md:pr-16 lg:pl-115 lg:pr-115 z-50 pt-8 pb-4 bg-white">
+    <div class="md:flex flex-wraps  items-center justify-between w-full">
+     <div class="logo-menu z-50 flex items-center justify-between w-full md:w-auto pr-5">
+        <router-link to="/" class="logo z-50">
         <svg
           width="171"
           height="63"
@@ -87,7 +88,13 @@
           </defs>
         </svg>
       </router-link>
-      <nav class="flex items-center justify-center font-medium space-x-9 ">
+          <div class="menu-wrapper z-50" @click="isOpen = !isOpen">
+            <svg v-if="!isOpen" xmlns="http://www.w3.org/2000/svg" class="md:hidden z-50" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M3 4h18v2H3V4zm0 7h18v2H3v-2zm0 7h18v2H3v-2z"/></svg>
+            <svg v-if="isOpen" xmlns="http://www.w3.org/2000/svg"  class="md:hidden z-50" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z"/></svg>
+          </div>
+     </div>
+      <div class="link-button hidden w-full md:flex md:flex-row flex-col mt-10 md:mt-0 md:justify-end pb-6 md:pb-0">
+        <nav class="flex md:flex-row flex-col items-center  justify-center font-medium space-y-8 md:space-y-0 md:space-x-9 ">
         <router-link class="nav-link" to="/">Home</router-link>
         <router-link class="nav-link" to="features">Features</router-link>
         <router-link class="nav-link" to="about">About us</router-link>
@@ -95,14 +102,35 @@
         <router-link class="nav-link" to="compliance">Compliance</router-link>
       </nav>
 
-      <div class="button flex items-center space-x-5">
+      <div class="button flex justify-center md:justify-start items-center mt-8 md:mt-0 md:ml-10 w-full md:w-auto space-x-9 md:space-x-5">
         <router-link to="/">
-          <button class="bg-white transition-all hover:bg-pelpayblue hover:text-white duration-500 ease-in-out px-8 py-4 rounded-md leading-160 tracking-0.02em font-semibold text-primarygreen">Login</button>
+          <button class="bg-white border md:border-0 transition-all hover:bg-pelpayblue hover:text-white duration-500 ease-in-out px-8 py-4 rounded-md leading-160 tracking-0.02em font-semibold text-primarygreen">Login</button>
         </router-link>
 
         <router-link to="/">
           <button class="bg-primarygreen transition-all duration-500 ease-in-out hover:bg-pelpayblue px-8 py-4 rounded-md leading-160 tracking-0.02em font-semibold text-white">Sign up</button>
         </router-link>
+      </div>
+      </div>
+
+         <div v-if="isOpen" :class="{'open': isOpen}" class="link-button z-10 transform bg-white h-screen fixed top-0 mobile-menu overflow-hidden w-full flex md:hidden  md:flex-row flex-col pt-32 md:mt-0 md:justify-end pb-6 md:pb-0">
+        <nav class="flex md:flex-row flex-col items-center  justify-center font-medium space-y-8 md:space-y-0 md:space-x-9 ">
+        <router-link class="nav-link" to="/">Home</router-link>
+        <router-link class="nav-link" to="features">Features</router-link>
+        <router-link class="nav-link" to="about">About us</router-link>
+        <router-link class="nav-link" to="developers">Developers</router-link>
+        <router-link class="nav-link" to="compliance">Compliance</router-link>
+      </nav>
+
+      <div class="button flex justify-center md:justify-start items-center mt-8 md:mt-0 md:ml-10 w-full md:w-auto space-x-9 md:space-x-5">
+        <router-link to="/">
+          <button class="bg-white border md:border-0 transition-all hover:bg-pelpayblue hover:text-white duration-500 ease-in-out px-8 py-4 rounded-md leading-160 tracking-0.02em font-semibold text-primarygreen">Logins</button>
+        </router-link>
+
+        <router-link to="/">
+          <button class="bg-primarygreen transition-all duration-500 ease-in-out hover:bg-pelpayblue px-8 py-4 rounded-md leading-160 tracking-0.02em font-semibold text-white">Sign up</button>
+        </router-link>
+      </div>
       </div>
     </div>
   </header>
@@ -110,6 +138,11 @@
 
 <script>
 export default {
+  data(){
+    return{
+      isOpen: false
+    }
+  },
   components: {},
   methods: {
     show() {
@@ -119,4 +152,15 @@ export default {
 };
 </script>
 
-<style></style>
+<style lang="scss">
+.mobile-menu.open{
+transform:  translateX(1px);
+  font-weight: 900 !important;
+  transition: all 5s ease-in-out !important;
+}
+
+.mobile-menu{
+  transform:  translateX(900px);
+    transition: all 5s ease-in-out !important;
+}
+</style>

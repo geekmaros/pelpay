@@ -1,8 +1,8 @@
 <template>
-  <section class="h-screen bg-pelpayblue100 flex justify-between home-hero pl-115  w-full">
-      <div class="text-wrapper w-6/12">
-             <div class="text-content pt-103px">
-        <h2 class="font-semibold max-w-38rem text-64px leading-76px text-white">The <span class="text-primarygreen">API suite</span> to build amazing payments products</h2>
+  <section class="h-screen bg-pelpayblue100 flex md:flex-row flex-col justify-between home-hero pr-5 pl-5 md:pl-115  w-full">
+      <div class="text-wrapper md:w-6/12">
+             <div class="text-content pt-16 md:pt-103px">
+        <h2 class="font-semibold md:max-w-38rem text-5xl md:text-64px leading-76px text-white">The <span class="text-primarygreen">API suite</span> to build amazing payments products</h2>
          <p class="text-white opacity-80 text-xl leading-8 font-normal mt-42px max-w-30rem">
 Power up your payments with comprehensive APIs that help you create sophisticated payment flows and gain operational efficiencies. 
              </p>
@@ -15,7 +15,7 @@ Power up your payments with comprehensive APIs that help you create sophisticate
 
       </div>
 
-    <div class="dev-svg relative flex justify-end items-end w-6/12">
+    <div class="dev-svg relative hidden md:flex justify-end items-end w-6/12">
              <svg class="" width="689" height="549" viewBox="0 0 689 549" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect x="144" width="451.62" height="547.952" fill="#08763A"/>
 <path opacity="0.44" fill-rule="evenodd" clip-rule="evenodd" d="M52.0604 389.425C51.4746 390.01 51.4746 390.96 52.0604 391.546L58.4244 397.91C59.0102 398.496 59.9599 398.496 60.5457 397.91L66.9097 391.546C67.4955 390.96 67.4955 390.01 66.9097 389.425L60.5457 383.061C59.9599 382.475 59.0102 382.475 58.4244 383.061L52.0604 389.425ZM76.0604 389.425C75.4746 390.01 75.4746 390.96 76.0604 391.546L82.4244 397.91C83.0102 398.496 83.9599 398.496 84.5457 397.91L90.9097 391.546C91.4955 390.96 91.4955 390.01 90.9097 389.425L84.5457 383.061C83.9599 382.475 83.0102 382.475 82.4244 383.061L76.0604 389.425Z" fill="white"/>

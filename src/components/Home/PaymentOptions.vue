@@ -1,10 +1,10 @@
 <template>
-  <section class="bg-white w-full h-auto  flex justify-between pl-115 pr-115 pt-24 pb-118">
-    <div class="heading w-full text-primarydark">
-      <h3 class="font-bold text-4xl leading-124 max-w-md">
+  <section class="bg-white w-full h-auto  flex md:flex-row flex-col justify-between pr-5 pl-5 md:pl-115 md:pr-115 pt-16 md:pt-24 pb-118">
+    <div class="heading w-full text-primarydark ">
+      <h3 class="font-bold text-3xl md:text-4xl leading-124 md:text-left text-center md:max-w-md">
         More Payment Options, More Distribution
       </h3>
-      <p class="leading-160 text-2xl tracking-0.04em mt-9 max-w-lg">
+      <p class="leading-160 text-xl md:text-left text-center md:text-2xl tracking-0.04em mt-9 max-w-lg">
         PelPay provide your customers with the flexibility of multiple payment
         options
       </p>
@@ -126,7 +126,7 @@
         </div>
       </div>
     </div>
-    <div class="paymenoption-image w-full ml-10">
+    <div class="paymenoption-image w-full mt-20 md:mt-0 md:ml-10">
         <img class="w-full" src="../../assets/images/paymentoption.png" alt="">
     </div>
   </section>

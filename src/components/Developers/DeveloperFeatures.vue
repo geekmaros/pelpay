@@ -1,12 +1,12 @@
 <template>
-  <section class="bg-white w-full pl-115 pr-115 pb-24">
-    <div class="sections flex justify-between pt-141 space-x-10">
+  <section class="bg-white w-full pl-5 pr-5 md:pl-115 md:pr-115 pb-24">
+    <div class="sections flex md:flex-row flex-col justify-between pt-16 mt:pt-141 md:space-x-10">
       <div class="image-wrapper w-full">
         <img src="../../assets/images/AnalyticsGraphic.png" alt="" />
       </div>
 
       <div class="section-content w-full">
-        <div class="top-span flex items-center mb-9">
+        <div class="top-span flex items-center md:mb-9">
           <svg
             width="72"
             height="4"
@@ -33,8 +33,9 @@
             <h3
               class="
                 font-bold
-                text-5xl text-black
-                leading-56px
+                text-4xl
+                md:text-5xl text-black
+                md:leading-56px
                 max-w-lg
                 text-left
               "
@@ -85,15 +86,16 @@
       </div>
     </div>
 
-    <div class="sections flex justify-between pt-141">
+    <div class="sections flex md:flex-row flex-col justify-between pt-16 md:pt-141">
       <div class="section-content w-full">
         <div class="text-contents">
           <div class="top-header w-full pt-6 bg-cover">
             <h3
               class="
                 font-bold
-                text-5xl text-black
-                leading-56px
+                text-4xl
+                md:text-5xl text-black
+                md:leading-56px
                 max-w-sm
                 text-left
               "
@@ -186,19 +188,20 @@
       </div>
     </div>
 
-    <div class="sections flex justify-between space-x-10s">
+    <div class="sections flex md:flex-row flex-col-reverse justify-between space-x-10s">
       <div class="image-wrapper w-full">
         <img src="../../assets/images/paymentcard.png" alt="" />
       </div>
 
-      <div class="section-content w-full pt-48">
+      <div class="section-content w-full md:pt-48">
         <div class="text-contents">
           <div class="top-header w-full pt-6 bg-cover">
             <h3
               class="
                 font-bold
-                text-5xl text-black
-                leading-56px
+                text-4xl
+                md:text-5xl text-black
+                md:leading-56px
                 max-w-lg
                 text-left
               "
@@ -224,15 +227,16 @@ retain more customers long-term.
       </div>
     </div>
 
-      <div class="sections flex justify-between pt-141">
+      <div class="sections flex md:flex-row flex-col justify-between md:pt-141">
       <div class="section-content w-full">
         <div class="text-contents">
           <div class="top-header w-full pt-6 bg-cover">
             <h3
               class="
                 font-bold
-                text-5xl text-black
-                leading-56px
+                text-4xl
+                md:text-5xl text-black
+                md:leading-56px
                 max-w-2xl
                 text-left
               "
@@ -298,7 +302,7 @@ retain more customers long-term.
         </div>
       </div>
 
-      <div class="image-wrapper flex justify-end w-full -mt-20">
+      <div class="image-wrapper flex justify-end w-full mt-20 md:-mt-20">
         <img src="../../assets/images/securedpayment.png" alt="" />
       </div>
     </div>

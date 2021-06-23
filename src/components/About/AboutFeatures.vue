@@ -1,13 +1,13 @@
 <template>
-  <section class="w-full h-auto flex relative">
-      <svg class="absolute right-0 bottom-0" width="232" height="232" viewBox="0 0 232 232" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <section class="w-full h-auto flex md:flex-row flex-col relative">
+      <svg class="absolute hidden md:block right-0 bottom-0" width="232" height="232" viewBox="0 0 232 232" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M150.387 150.076C128.676 171.788 116.479 201.234 116.479 231.939L232.25 231.939L232.25 116.168C201.545 116.168 172.098 128.365 150.387 150.076Z" fill="#FFB201"/>
 <path d="M181.088 186.745C167.586 198.747 160 215.026 160 232L232 232L232 168C212.904 168 194.591 174.743 181.088 186.745Z" fill="white"/>
 <path d="M198.341 34.3046C176.63 12.5933 147.183 0.395993 116.479 0.395996L116.479 116.167L232.25 116.167C232.25 85.4629 220.053 56.016 198.341 34.3046Z" fill="#009F49"/>
 <path d="M34.6157 150.076C12.9043 171.787 0.707029 201.234 0.707031 231.939L116.478 231.939L116.478 116.167C85.7739 116.167 56.327 128.365 34.6157 150.076Z" fill="#FFF27F"/>
 </svg>
 
-    <div class="feature-side w-full pl-118 pt-104 pb-56px bg-pelpaylemongreen200">
+    <div class="feature-side w-full pl-5 pr-5 md:pl-118 pt-16 md:pt-104 pb-56px bg-pelpaylemongreen200">
       <div class="feature-card-wrapper flex space-x-5">
         <div class="icon">
           <svg
@@ -256,29 +256,29 @@
         </div>
       </div>
     </div>
-    <div class="right-side w-full pl-103 pr-106 pb-24">
-         <div class="top-header w-full pt-20 bg-cover">
-        <h3 class="font-bold text-5xl text-black leading-56px  max-w-lg text-left">
+    <div class="right-side w-full pl-5 pr-5  md:pl-103 md:pr-106 pb-24">
+         <div class="top-header w-full pt-10 md:pt-20 bg-cover">
+        <h3 class="font-bold text-4xl md:text-5xl text-black md:leading-56px  max-w-lg text-center md:text-left">
           Payment. We get it Absolutly!
         </h3>
-        <p class="text-pelpaygray200 leading-6 text-base font-normal text-left max-w-2xl mx-auto mt-6">
+        <p class="text-pelpaygray200 leading-6 text-base font-normal text-center md:text-left max-w-2xl mx-auto mt-6">
             The dedication to our products shows. That’s why we’re so stoked to support you with exactly the kind of payment solutions you’re looking for.
         </p>
     </div>
 
- <div class="info flex justify-between items-center mt-16">
+ <div class="info flex justify-between space-x-5 items-center mt-16">
         <div class="trans-info">
-        <h2 class="text-pelpaygreen100 text-56px font-bold leading-120">300M+</h2>
+        <h2 class="text-pelpaygreen100 text-5xl md:text-56px font-bold leading-120">300M+</h2>
         <p class="text-pelpaygray400 max-w-100px mt-3 text-base leading-160">Transactions every day</p>
     </div>
 
      <div class="trans-info">
-        <h2 class="text-pelpaygreen100 text-56px font-bold leading-120">1,000+</h2>
+        <h2 class="text-pelpaygreen100 text-5xl md:text-56px font-bold leading-120">1,000+</h2>
         <p class="text-pelpaygray400 max-w-150px mt-3 text-base leading-160">African businesses around the world</p>
     </div>
  </div>
 
-  <div class="button flex items-center space-x-5 mt-16">
+  <div class="button flex justify-center md:justify-start items-center space-x-5 mt-10 md:mt-16">
         <router-link to="/">
           <button class="bg-primarygreen transition-all duration-500 ease-in-out hover:bg-pelpayblue px-8 py-4 rounded-md leading-160 tracking-0.02em font-semibold text-white">Vew Documenation</button>
         </router-link>

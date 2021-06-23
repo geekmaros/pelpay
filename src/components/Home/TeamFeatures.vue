@@ -1,7 +1,7 @@
 <template>
-  <section class="border-t border-b  px-32 mb-16">
-    <div class="flex-cont flex justify-between max-w-6xl mx-auto">
-        <div class="01 flex pt-62 pb-8 space-x-5 pr-10">
+  <section class="border-t border-b  md:px-32 md:mb-16 pb-20 md:pb-0">
+    <div class="flex-cont flex md:flex-row flex-col justify-between md:max-w-6xl mx-auto">
+        <div class="01 flex pt-62 pb-8 space-x-5 px-10 md:px-0 pr-10">
             <span class="blocks text-pelpaygreen opacity-50 font-bold text-288px">01</span>
 
             <div class="desc ">
@@ -11,7 +11,7 @@
 
         </div>
 
-        <div class="01 flex border pt-62 pb-8 px-10 space-x-5 ">
+        <div class="01 flex md:border pt-62 pb-8 px-10 space-x-5 ">
            <div>
                 <span class="block text-pelpaygreen opacity-50 font-bold text-288px -mt-1">0</span>
                 <span class="block text-pelpaygreen opacity-50 font-bold text-288px -mt-4">2</span>
