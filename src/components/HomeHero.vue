@@ -3,12 +3,12 @@
     class="
       h-auto
       md:h-auto
-      lg:h-screen
+      lg:h-screens
       home-hero
       pl-5
       pr-5
       pb-16
-      md:pb-0 md:pl-115 md:pr-115
+      md:pb-52 md:pl-115 md:pr-115
       w-full
       bg-cover
       md:bg-auto
@@ -100,6 +100,7 @@
 
 <script>
 export default {
+  components: {},
   data() {
     return {
       img: require("../assets/images/home-hero-image.png"),
@@ -108,4 +109,10 @@ export default {
 };
 </script>
 
-<style lang="scss"></style>
+<style lang="scss">
+@media (min-width: 1024px) {
+  .hero-image {
+    height: 80vh !important;
+  }
+}
+</style>

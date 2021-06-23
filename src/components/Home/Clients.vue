@@ -3,19 +3,18 @@
     class="
       bg-white
       client
-      grids
-      grid-cols-2
       overflow-x-scroll
-      gap-8
       flex
       justify-between
       w-full
       items-center
       pt-10
-      md:pt-8
+      md:pt-0 md:-mt-5
       px-4
-      md:mx-56
+      md:mx-56s
       pb-10
+      space-x-5
+      md:px-32
     "
   >
     <img
