@@ -2,6 +2,7 @@
   <section
     class="
       bg-white
+      client
       grids
       grid-cols-2
       overflow-x-scroll
@@ -29,4 +30,12 @@
 export default {};
 </script>
 
-<style></style>
+<style lang="scss">
+.client::-webkit-scrollbar {
+  display: none;
+}
+.client {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+</style>
