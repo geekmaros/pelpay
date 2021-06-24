@@ -4,52 +4,121 @@
       bg-white
       client
       overflow-x-scroll
-      flex
-      justify-between
+      text-md
+      inline-flex
+      md:flex
       w-full
-      items-center
+      justify-between
+      items-centers
       pt-10
       md:pt-0 md:-mt-5
       px-4
-      md:mx-56s
       pb-10
       space-x-5
-      md:px-32
+      md:space-x-12 md:px-10
     "
   >
-    <img
+    <h3
       data-aos="zoom-in"
       data-aos-duration="1000"
-      src="../../assets/images/slack.png"
-      alt=""
-    />
-    <img
+      class="
+        text-lg
+        w-full
+        md:w-auto
+        flex-grow
+        text-md text-pelpaygray
+        font-bold
+        text-center
+        md:text-left
+      "
+    >
+      Web Payments
+    </h3>
+    <h3
       data-aos="zoom-in"
       data-aos-duration="1000"
-      class="justify-self-end"
-      src="../../assets/images/gw.png"
-      alt=""
-    />
-    <img
+      class="
+        text-lg
+        w-full
+        md:w-auto
+        flex-grow
+        text-md text-pelpaygray
+        font-bold
+        text-center
+        md:text-left
+      "
+    >
+      Mobile Payments
+    </h3>
+
+    <h3
       data-aos="zoom-in"
       data-aos-duration="1000"
-      src="../../assets/images/forbes.png"
-      alt=""
-    />
-    <img
+      class="
+        text-lg
+        w-full
+        md:w-auto
+        flex-grow
+        text-md text-pelpaygray
+        font-bold
+        text-center
+        md:text-left
+      "
+    >
+      POS Payments
+    </h3>
+
+    <h3
       data-aos="zoom-in"
       data-aos-duration="1000"
-      class="justify-self"
-      src="../../assets/images/usa.png"
-      alt=""
-    />
-    <img
+      class="
+        text-lg
+        w-full
+        md:w-auto
+        flex-grow
+        text-md text-pelpaygray
+        font-bold
+        text-center
+        md:text-left
+      "
+    >
+      Contactless/NFC Payments
+    </h3>
+
+    <h3
       data-aos="zoom-in"
       data-aos-duration="1000"
-      class=""
-      src="../../assets/images/envato.png"
-      alt=""
-    />
+      class="
+        text-lg
+        w-full
+        md:w-auto
+        text-md
+        flex-grows
+        text-pelpaygray
+        font-bold
+        text-center
+        md:text-left
+      "
+    >
+      Bank/Virtual Account Payments
+    </h3>
+
+    <h3
+      data-aos="zoom-in"
+      data-aos-duration="1000"
+      class="
+        text-lg
+        w-full
+        md:w-auto
+        flex-grows
+        text-md text-pelpaygray
+        font-bold
+        text-center
+        md:text-left
+      "
+    >
+      USSD Payments
+    </h3>
   </section>
 </template>
 
