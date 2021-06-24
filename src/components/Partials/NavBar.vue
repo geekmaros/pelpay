@@ -348,7 +348,7 @@ export default {
   components: {},
   watch: {
     $route() {
-      this.isOpen = !this.isOpen;
+      this.isOpen = false;
     },
   },
   methods: {
