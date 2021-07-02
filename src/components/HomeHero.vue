@@ -11,12 +11,12 @@
       md:pb-52 md:pl-115 md:pr-115
       w-full
       bg-cover
-      md:bg-auto
+      md:bg-cover
       bg-no-repeat
     "
     :style="{
       'background-image':
-        'url(' + require('../assets/images/home-hero-image.png') + ')',
+        'url(' + require('../assets/images/newhomehero.png') + ')',
     }"
   >
     <div class="text-content pt-10 md:pt-103px">
@@ -112,6 +112,7 @@ export default {
 <style lang="scss">
 @media (min-width: 1024px) {
   .hero-image {
+    mix-blend-mode: darken;
     height: 80vh !important;
   }
 }
