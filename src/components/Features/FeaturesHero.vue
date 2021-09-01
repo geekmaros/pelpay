@@ -42,11 +42,21 @@
         help businesses in Africa digitize their payment process with ease.
       </p>
     </div>
-    <div class="hero-image h-56 md:h-auto mx-auto w-full bg-no-repeat bg-cover bg-bottom"   :style="{
-      'background-image':
-        'url(' + require('../../assets/images/featureshero.png') + ')',
-    }">
-<!--      <img src="../../assets/images/featureshero.png" alt="" />-->
+    <div
+      class="
+        hero-image
+        h-56
+        md:h-auto
+        mx-auto
+        w-full
+        bg-no-repeat bg-cover bg-bottom
+      "
+      :style="{
+        'background-image':
+          'url(' + require('../../assets/images/featureshero.png') + ')',
+      }"
+    >
+      <!--      <img src="../../assets/images/featureshero.png" alt="" />-->
     </div>
   </section>
 </template>

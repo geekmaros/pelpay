@@ -186,7 +186,7 @@
             md:space-x-5
           "
         >
-          <router-link to="/">
+          <a href="https://merchant.pelpay.ng/login" target="_blank">
             <button
               class="
                 bg-white
@@ -207,9 +207,9 @@
             >
               Login
             </button>
-          </router-link>
+          </a>
 
-          <router-link to="/">
+          <a href="https://merchant.pelpay.ng/onboading" target="_blank">
             <button
               class="
                 bg-primarygreen
@@ -228,7 +228,7 @@
             >
               Sign up
             </button>
-          </router-link>
+          </a>
         </div>
       </div>
 
@@ -289,7 +289,7 @@
             md:space-x-5
           "
         >
-          <router-link to="/">
+          <a href="https://merchant.pelpay.ng/login" target="_blank">
             <button
               class="
                 bg-white
@@ -308,11 +308,11 @@
                 text-primarygreen
               "
             >
-              Logins
+              Login
             </button>
-          </router-link>
+          </a>
 
-          <router-link to="/">
+          <a href="https://merchant.pelpay.ng/onboading" target="_blank">
             <button
               class="
                 bg-primarygreen
@@ -331,7 +331,7 @@
             >
               Sign up
             </button>
-          </router-link>
+          </a>
         </div>
       </div>
     </div>

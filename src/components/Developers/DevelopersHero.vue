@@ -1,7 +1,10 @@
 <template>
   <section
     class="
-      h-screen
+      h-auto
+      lg:h-auto
+      relative
+      pb-20
       bg-pelpayblue100
       flex
       md:flex-row
@@ -70,7 +73,7 @@
       </div>
     </div>
 
-    <div class="dev-svg relative hidden md:flex justify-end items-end w-6/12">
+    <div class="dev-svg hidden  absolute md:right-0 md:mr-5 md:bottom-0 hidden md:flex justify-end items-end w-6/12">
       <svg
         class=""
         width="689"

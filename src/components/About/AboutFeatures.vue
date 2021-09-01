@@ -411,7 +411,7 @@
               text-white
             "
           >
-            Vew Documenation
+            View Documentation
           </button>
         </router-link>
       </div>
