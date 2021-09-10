@@ -84,29 +84,7 @@
           mt-12
         "
       >
-        <router-link to="/">
-          <button
-            data-aos="fade-up"
-            data-aos-duration="2000"
-            class="
-              bg-white
-              text-base
-              px-12
-              md:px-10
-              py-4
-              rounded-md
-              leading-160
-              tracking-0.02em
-              font-bold
-              text-primarygreen
-              hover:text-white hover:bg-primarygreen
-            "
-          >
-            Book a session
-          </button>
-        </router-link>
-
-        <router-link to="/">
+        <router-link to="/about">
           <button
             data-aos="fade-up"
             data-aos-duration="2000"
@@ -128,7 +106,7 @@
               text-white
             "
           >
-            Contact Us
+            About Us
           </button>
         </router-link>
       </div>
@@ -258,8 +236,8 @@
             leading-160
             mb-2
           "
-          href="tel:(704) 555-0127"
-          >(704) 555-0127</a
+          href="tel:012900616"
+          >(01) 290-0616</a
         >
       </div>
 
